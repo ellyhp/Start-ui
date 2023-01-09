@@ -1,0 +1,77 @@
+*{
+    font-size: 65.2%;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+a{
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: #585858;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.icon--content{
+    padding: 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.arrow--img{
+    height: 1rem;
+    margin: 0 1rem;
+}
+
+.navInfo--content{
+    gap: 2rem;
+}
+
+.icon--start{
+    height: 3.5rem;
+}
+
+.bck--purple{
+    top: 0;
+    background-image: url('infinity_3.gif');
+    width: 120rem;
+    height: 70rem;
+    min-height: 70rem;
+    min-width: 120rem;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.flex--content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20rem;
+}
+
+.flex--content h1{
+    font-size: 20rem;
+    margin: 0;
+    color: rgb(170, 1, 170);
+}
+
+.flex--content h2{
+    font-size: 15rem;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.tittle--container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
